@@ -4,4 +4,7 @@ chapter: true
 weight: 15
 ---
 
-Coming soon....Beginning of September for ***Auto-remediation***
+Cheers! We got our first application going live in the cluster that we created.
+
+
+![netflix-clone](../images/netflix-clone.png "netflix")
