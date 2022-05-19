@@ -1,5 +1,5 @@
 ---
-title: "CoreStack Lab"
+title: "Deploy an Application in K3D Cluster"
 chapter: true
 draft: false
 weight: 6

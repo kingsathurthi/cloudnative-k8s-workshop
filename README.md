@@ -1,6 +1,6 @@
-# AWSWorkshop.io Workshop - CoreStack
+# KCD Chennai Workshop - 2022
 
-This is the repository to generate the AWS/Puppet Workshop from and execute with Hugo.
+This is the repository to generate the KCD Chennai 2022 Workshop from and execute with Hugo.
 
 ## To Execute.
 Hugo is leveraged as the site generator. https://gohugo.io/about/what-is-hugo/
@@ -14,7 +14,3 @@ hugo server
 ```
 
 With the local Hugo server running, head to http://localhost:1313
-
-Cheers!
-
--AWS Modernization Team
