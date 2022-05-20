@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://kcdchennai.github.io/cloud-native-k8s-workshop"
 languageCode = "en-US"
 defaultContentLanguage = "oyo"
 

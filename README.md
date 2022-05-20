@@ -1,6 +1,6 @@
-# KCD Chennai Workshop - 2022
+# Cloud Native with Kubernetes Workshop Content
 
-This is the repository to generate the KCD Chennai 2022 Workshop from and execute with Hugo.
+This is the repository to generate the Cloud Native with Kubernetes Workshop content using hugo.
 
 ## To Execute.
 Hugo is leveraged as the site generator. https://gohugo.io/about/what-is-hugo/
