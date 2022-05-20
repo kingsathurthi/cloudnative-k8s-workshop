@@ -29,18 +29,3 @@ This workshop is broken into the sections list below. Estimated time for complet
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :arrow_right: Deploying the application to Kuberenetes Cluster
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :arrow_right: Application access and testing
-
-```mermaid
-graph TD
-  A[ Start] --> B[ Setup WSL ]
-  B --> C[ Install Docker ]
-  B --> D[ Install Chrome ]
-  B --> E[ Install GWSL]
-  C --> F[ Install K3D]
-  F --> G[ Create Cluster]
-  G --> H[ Create Application Image]
-  H --> I[ Deploy Application]
-  I --> J[ Validate/Access Application]
-  D --> J[ Validate/Access Application]
-  E --> J[ Validate/Access Application]
-```
