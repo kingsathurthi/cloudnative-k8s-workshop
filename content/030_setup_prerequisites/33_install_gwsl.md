@@ -1,5 +1,5 @@
 ---
-title: "3. Install GWSL"
+title: "4. Install GWSL"
 chapter: true
 weight: 13
 ---
