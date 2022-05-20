@@ -1,7 +1,6 @@
 ---
 title: "Setup Prerequisites"
 chapter: true
-draft: false
 weight: 4
 ---
 
