@@ -17,6 +17,7 @@ git clone https://github.com/karthick-kk/netflix-clone
 
 :arrow_right: Build Image
 ```
+cd netflix-clone
 docker build -t netflix-clone:1.0 .
 ```
 

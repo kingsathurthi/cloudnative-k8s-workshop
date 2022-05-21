@@ -1,5 +1,5 @@
 ---
-title: "Deploy an Application"
+title: "3. Deploy an Application"
 chapter: true
 draft: false
 weight: 6

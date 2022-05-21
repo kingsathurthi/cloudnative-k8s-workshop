@@ -1,5 +1,5 @@
 ---
-title: "Create a Kubernetes Cluster"
+title: "2. Create a Kubernetes Cluster"
 chapter: true
 weight: 5
 ---
