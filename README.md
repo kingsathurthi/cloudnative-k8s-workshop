@@ -2,7 +2,7 @@
 
 This is the repository to generate the Cloud Native with Kubernetes Workshop content using hugo.
 
-Workshop URL: https://kcdchennai.github.io/cloud-native-k8s-workshop
+Workshop URL: https://kcdchennai.github.io/cloudnative-k8s-workshop
 ## To Execute.
 Hugo is leveraged as the site generator. https://gohugo.io/about/what-is-hugo/
 
