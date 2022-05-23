@@ -59,7 +59,7 @@ weight = 23
 title = "KCD Cloud Native"
 weight = 1
 languageName = "KCD Cloud Native"
-landingPageURL = "https://kcdchennai.github.io/cloud-native-k8s-workshop"
+landingPageURL = "https://kcdchennai.github.io/cloudnative-k8s-workshop"
 landingPageName = "<i class='fas fa-home'></i> Home"
 
 [Languages.ee]
