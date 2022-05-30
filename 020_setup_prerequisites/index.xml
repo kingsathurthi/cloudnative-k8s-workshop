@@ -5,4 +5,9 @@ Install Windows Subsytem for Linux (WSL) ➡️ Powershell/CMD</description></it
 sudo apt-get update &amp;amp;&amp;amp; sudo apt-get install docker.io -y ➡️ Add docker daemon to startup</description></item><item><title>3. Install Google Chrome</title><link>https://kcdchennai.github.io/cloudnative-k8s-workshop/020_setup_prerequisites/22_install_chrome.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcdchennai.github.io/cloudnative-k8s-workshop/020_setup_prerequisites/22_install_chrome.html</guid><description> Install Google Chrome Chrome is available for Linux and this page shows you where to download it from and how to install it. It is essential to have a graphical browser installed for web development.
 ➡️ Download Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb ➡️ Install Chrome
-sudo apt install ./google-chrome-stable_current_amd64.deb -y</description></item></channel></rss>
+sudo apt install ./google-chrome-stable_current_amd64.deb -y</description></item><item><title>4. Install GWSL</title><link>https://kcdchennai.github.io/cloudnative-k8s-workshop/020_setup_prerequisites/23_install_gwsl.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcdchennai.github.io/cloudnative-k8s-workshop/020_setup_prerequisites/23_install_gwsl.html</guid><description>Install GWSL GWSL is an XServer that lets you easily run graphical Linux apps on Windows 10. GWSL stands for Graphical WSL.
+➡️ Download and Install GWSL
+Github Source
+➡️ Setup Remote Display
+export DISPLAY=$(ip -4 route | awk &amp;#39;{ if ($1~/default/) print $3 }&amp;#39;):0.0 export PULSE_SERVER=tcp:$(ip -4 route | awk &amp;#39;{ if ($1~/default/) print $3 }&amp;#39;) ➡️ Update profile to persist the configuration
+echo &amp;#34;export DISPLAY=\$(ip -4 route | awk &amp;#39;{ if (\$1~/default/) print \$3 }&amp;#39;):0.</description></item></channel></rss>
