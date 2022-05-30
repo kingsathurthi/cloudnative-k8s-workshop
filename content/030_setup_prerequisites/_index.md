@@ -1,5 +1,5 @@
 ---
-title: "1. Setup Prerequisites"
+title: "2. Setup Prerequisites"
 chapter: true
 weight: 4
 ---
