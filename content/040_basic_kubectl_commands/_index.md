@@ -1,5 +1,5 @@
 ---
-title: "1. Basic Kubectl Commands"
+title: "3. Basic Kubectl Commands"
 chapter: true
 weight: 4
 ---
