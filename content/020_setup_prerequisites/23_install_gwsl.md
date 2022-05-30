@@ -11,13 +11,25 @@ GWSL is an XServer that lets you easily run graphical Linux apps on Windows 10. 
 
 [Github Source](https://github.com/Opticos/GWSL-Source/releases/)
 
-:arrow_right: Setup Remote Display
-```
+> Allow any firewall alert popups to allow the traffic between host and WSL
+
+:arrow_right: Configure Remote Display (Auto)
+
+Open GWSL -> GWSL Distro Tools -> Configure Ubuntu 20.02 -> Auto-Export Display/Audio
+
+![GWSL Config](../images/gwslconfig.png "GWSLConfig")
+
+{{% notice note %}}
+Skip below section, if GWSL has been already configured using previous method.
+{{% /notice %}}
+
+:arrow_right: Setup Remote Display (Manual)
+``` 
 export DISPLAY=$(ip -4 route | awk '{ if ($1~/default/)  print $3 }'):0.0 
 export PULSE_SERVER=tcp:$(ip -4 route | awk '{ if ($1~/default/)  print $3 }') 
 ```
-
-:arrow_right: Update profile to persist the configuration
+ 
+:arrow_right: Update profile to persist the configuration (Manual)
 ```
 echo "export DISPLAY=\$(ip -4 route | awk '{ if (\$1~/default/)  print \$3 }'):0.0 
 export PULSE_SERVER=tcp:\$(ip -4 route | awk '{ if (\$1~/default/)  print \$3 }')" >> ~/.bashrc

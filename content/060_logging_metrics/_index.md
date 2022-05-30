@@ -2,7 +2,7 @@
 title: "5. Logging, Metrics & Troubleshooting"
 chapter: true
 draft: false
-weight: 6
+weight: 8
 ---
 
 # Logging, Metrics & Troubleshooting

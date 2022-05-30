@@ -1,7 +1,7 @@
 ---
 title: "3. Basic Kubectl Commands"
 chapter: true
-weight: 4
+weight: 6
 ---
 
 # Kubectl - Command Line Tool

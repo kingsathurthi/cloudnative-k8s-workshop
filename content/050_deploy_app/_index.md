@@ -2,7 +2,7 @@
 title: "4. Deploy an Application"
 chapter: true
 draft: false
-weight: 6
+weight: 7
 ---
 
 ### About the Application
