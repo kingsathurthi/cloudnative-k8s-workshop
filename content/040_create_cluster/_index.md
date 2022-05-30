@@ -1,5 +1,5 @@
 ---
-title: "2. Create a Kubernetes Cluster"
+title: "3. Create a Kubernetes Cluster"
 chapter: true
 weight: 5
 ---
@@ -13,4 +13,3 @@ Here is a preview of the steps involved:
 :arrow_right: Install K3D
 
 :arrow_right: Create a Kubernetes Cluster using K3D utility
-
