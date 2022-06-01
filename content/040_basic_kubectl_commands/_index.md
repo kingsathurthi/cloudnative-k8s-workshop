@@ -45,9 +45,3 @@ kubectl run nginx --image=nginx
 kubectl describe node <nodename>
 kubectl describe pod <podname>
 ```
-
-
-:arrow_right: Create resource
-```
-kubectl create -f <filename>
-```
