@@ -15,7 +15,7 @@ kubectl is installable on a variety of Linux platforms, macOS and Windows. Refer
 :arrow_right: Connect to Kubectl Cluster
 ```
 k3d kubeconfig get local-cluster > $HOME/.kube/localk8scluster.yaml
-export kubeconfig="$HOME/.kube/localk8scluster.yaml"
+export KUBECONFIG="$HOME/.kube/localk8scluster.yaml"
 ```
 
 :arrow_right: Client and Server version information
