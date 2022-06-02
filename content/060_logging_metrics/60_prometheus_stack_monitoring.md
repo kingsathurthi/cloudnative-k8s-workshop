@@ -45,4 +45,5 @@ kubectl -n monitoring port-forward service/prometheus-stack-grafana 9091:80
 ```
 http://localhost:9090
 http://localhost:9091
+Credentials: admin/prom-operator
 ```
