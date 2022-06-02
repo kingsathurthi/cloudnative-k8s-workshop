@@ -20,6 +20,10 @@ kubectl create namespace monitoring
 ```
 
 :arrow_right: Add Prometheus Stack Chart Repository
+
+**Note:** Helm is an open source package manager for Kubernetes. It provides the ability to provide, share, and use software built for Kubernetes. [Helm Overview](https://helm.sh/docs/)
+
+
 ```
 helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 helm repo update
