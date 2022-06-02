@@ -10,6 +10,8 @@ weight: 11
 
 The Elastic Stack is the next evolution of the ELK Stack.
 
+[ELK Stack Overview](https://www.elastic.co/what-is/elk-stack)
+
 Below are steps to install Elastic Stack in a Kubernetes Cluster
 
 :arrow_right: Create Logging Namespace
