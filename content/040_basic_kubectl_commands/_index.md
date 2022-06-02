@@ -45,3 +45,12 @@ kubectl run nginx --image=nginx
 kubectl describe node <nodename>
 kubectl describe pod <podname>
 ```
+
+
+:arrow_right: Scaling and Deploying Applications
+```
+kubectl create deployment nginx --image=nginx --replicas=2
+kubectl expose deployment/nginx --name=nginx-service --type=ClusterIP --port=80 --target-port=80
+kubectl get services
+kubectl port-forward service/nginx-service 9595:80
+```
