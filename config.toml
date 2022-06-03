@@ -46,7 +46,7 @@ home = ["HTML", "RSS", "JSON"]
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-chalkboard-teacher'></i> Sponsored by KCD Chennai"
-url = "https://www.kcdchennai.in/"
+url = "http://www.kcdchennai.in/"
 weight = 23
 
 [markup]
