@@ -4,7 +4,6 @@ chapter: true
 weight: 15
 ---
 
-Cheers! We got our first application going live in the cluster that we created. Kindly refer to the [KCNA page](https://www.cncf.io/certification/kcna/) for further learning and certification in this space. 
-
+Cheers! We got our first application going live in the cluster that we created. 
 
 ![netflix-clone](../images/netflix-clone.png "netflix")
